@@ -41,7 +41,7 @@ THE SOFTWARE.
   <properties>
     <xmlunit.version>2.9.0</xmlunit.version>
     <!-- Filled in by jacoco-maven-plugin -->
-    <jacocoSurefireArgs />
+    <jacocoSurefireArgs/>
   </properties>
 
   <dependencyManagement>
@@ -473,7 +473,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
-      <version>4.0.4</version>
+      <version>6.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -676,7 +676,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
