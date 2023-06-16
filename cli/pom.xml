@@ -15,9 +15,9 @@
   <url>https://github.com/jenkinsci/jenkins</url>
 
   <properties>
-    <mina-sshd.version>2.9.2</mina-sshd.version>
+    <mina-sshd.version>2.10.0</mina-sshd.version>
     <!-- Filled in by jacoco-maven-plugin -->
-    <jacocoSurefireArgs />
+    <jacocoSurefireArgs/>
   </properties>
 
   <dependencyManagement>
@@ -153,7 +153,7 @@
                     <Jenkins-CLI-Version>${project.version}</Jenkins-CLI-Version>
                   </manifestEntries>
                 </transformer>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
               </transformers>
             </configuration>
           </execution>
